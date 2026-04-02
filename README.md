@@ -30,16 +30,26 @@ npm install @google/generative-ai express cors ws
 node server.js
 ```
 
-**2. Setting app in your browser**
-Use the shared app https://ai.studio/apps/7a3bde4f-8a00-4391-9160-06172dd6e363
-Then remix so changes from my app doesnt affect you.
-or 
-Create new project in ai studio. (example prompt "empty project")
-Wait for ai to iniialise the project.
-Delete all files one by one (ugh i know its so frustrating right. all the files one by one. cant google make delete all button?)
-Upload the browser_client.zip file from the repo to your google ai studio code
-<img width="1841" height="957" alt="image" src="https://github.com/user-attachments/assets/5a2fb87c-0619-4ca4-b0f4-f49e6055a27a" />
+**2. Setting up the app in your browser**
 
+You can set up the project using one of the two methods below:
+
+### Option 1: Remix the Shared App (Easiest)
+Use the shared app: https://ai.studio/apps/7a3bde4f-8a00-4391-9160-06172dd6e363
+Then **remix** it so changes from my app don't affect you.
+
+
+### Option 2: Create a New Project from Scratch
+Create a new project in AI studio (example prompt: "empty project").
+<img width="1015" height="415" alt="image" src="https://github.com/user-attachments/assets/4d9c1615-9d5c-412d-9d95-ed58d9518406" />
+
+Wait for the AI to initialize the project. 
+
+Next, delete all files one by one (ugh I know it's so frustrating right? All the files one by one. Can't Google make a "delete all" button?).
+<img width="1856" height="962" alt="image" src="https://github.com/user-attachments/assets/54285777-60fb-482a-9766-b986066fb455" />
+
+Finally, upload the `browser_client.zip` file from the repo to your Google AI Studio code.
+<img width="1856" height="962" alt="image" src="https://github.com/user-attachments/assets/2e1f8b94-0c53-40a3-9549-b3c2d9e90a57" />
 
 > ⚠️ The browser tab must stay open while making API calls.  
 > Open multiple tabs from different Google accounts for more quota.
