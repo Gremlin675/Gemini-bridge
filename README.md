@@ -1,5 +1,3 @@
-# gemini-relay
-
 Aggregate free Gemini API quota from multiple Google accounts and API keys into a single local endpoint — including access to Gemini 3.1 models.
 
 ## How it works
