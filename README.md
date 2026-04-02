@@ -52,15 +52,14 @@ send_image_request_sync(["input.png"], "Make the sky purple", "output.png")
 ## Optional: Add free API keys
 
 Get free-tier API keys at https://aistudio.google.com/app/apikey and add them to `.env` file:
-
-
+In .env.example is an example how to add keys.
 
 The server load-balances across them automatically.
 
 
 
 ## Notes
-I kinda dont understand websecurity so use it only for your responsibility.
+I kinda dont understand websecurity so use this repo only for your responsibility.
 - Server binds to `127.0.0.1` only — not exposed to your LAN or the internet
 - `usage_data.json` is created automatically to track daily usage per key/model
 - Do not commit your API keys — add `usage_data.json` to `.gitignore` and load keys from an `.env` file
