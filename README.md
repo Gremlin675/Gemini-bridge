@@ -30,9 +30,16 @@ npm install @google/generative-ai express cors ws
 node server.js
 ```
 
-**2. Open the AI Studio app in your browser**
+**2. Setting app in your browser**
+Use the shared app https://ai.studio/apps/7a3bde4f-8a00-4391-9160-06172dd6e363
+Then remix so changes from my app doesnt affect you.
+or 
+Create new project in ai studio. (example prompt "empty project")
+Wait for ai to iniialise the project.
+Delete all files one by one (ugh i know its so frustrating right. all the files one by one. cant google make delete all button?)
+Upload the browser_client.zip file from the repo to your google ai studio code
+<img width="1841" height="957" alt="image" src="https://github.com/user-attachments/assets/5a2fb87c-0619-4ca4-b0f4-f49e6055a27a" />
 
-https://ai.studio/apps/7a3bde4f-8a00-4391-9160-06172dd6e363
 
 > ⚠️ The browser tab must stay open while making API calls.  
 > Open multiple tabs from different Google accounts for more quota.
