@@ -10,9 +10,9 @@ const HTTP_PORT = 8080;
 const USAGE_FILE = 'usage_data.json';
 
 // Add your Gemini API keys here. Multiple keys are load-balanced automatically.
-const API_KEYS = [
-    // "AIza...",
-];
+const API_KEYS = process.env.GEMINI_KEYS
+    ? process.env.GEMINI_KEYS.split(',').map(k => k.trim()).filter(Boolean)
+    : [];
 
 const MODELS = [
     "gemini-3.1-pro-preview",
